@@ -301,3 +301,4 @@ with st.expander("🔎 Verificación rápida de calidad de datos (ETL)"):
     })
 
 st.caption("Hecho en Python (ETL + Dashboard) con pandas + streamlit + plotly.")
+
