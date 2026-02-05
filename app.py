@@ -3,13 +3,13 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.express as px
-
+Import os
 # ---------------------------
 # CONFIG
 # ---------------------------
 st.set_page_config(page_title="Dashboard Presupuesto", layout="wide")
 
-RUTA = r"C:\Users\JeinerJhoelLunaYacup\Downloads\BD Presupuesto Final.xlsx"
+RUTA = os.path.join(os.getcwd(), "BD Presupuesto Final.xlsx")
 
 # ---------------------------
 # HELPERS
@@ -301,4 +301,5 @@ with st.expander("🔎 Verificación rápida de calidad de datos (ETL)"):
     })
 
 st.caption("Hecho en Python (ETL + Dashboard) con pandas + streamlit + plotly.")
+
 
