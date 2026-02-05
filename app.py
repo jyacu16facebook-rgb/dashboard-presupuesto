@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.express as px
+Import os
 # ---------------------------
 # CONFIG
 # ---------------------------
@@ -300,6 +301,7 @@ with st.expander("🔎 Verificación rápida de calidad de datos (ETL)"):
     })
 
 st.caption("Hecho en Python (ETL + Dashboard) con pandas + streamlit + plotly.")
+
 
 
 
